@@ -68,7 +68,7 @@ function polym(params) {
         console.log(data);
         console.log(data.choices[0].message.content);
         emotionprt(data.choices[0].message.content);
-
+        emotionprt("Ferren, maybe he isn't always kind and understands your feelings, but he always tries to understand and love you, he left me greetings he really loves you. and today eat stall yes");
       })
       .catch(error => {
         console.error('Terjadi kesalahan:', error);
